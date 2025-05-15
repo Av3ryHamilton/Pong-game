@@ -46,10 +46,10 @@ export var soundArray = []; //list of sounds loaded
 export var wallSound = new soundFile("wall.mp3"); //load sound
 soundArray.push(wallSound); //add sound to list of sounds
 
-export var paddleSound = new soundFile("bell.mp3");
+export var paddleSound = new soundFile("starball.mp3");
 soundArray.push(paddleSound);
 
-export var scoreSound = new soundFile("silence.mp3");
+export var scoreSound = new soundFile("Winner.mp3");
 soundArray.push(scoreSound);
 
 export var ambientSound = new soundFile("Star music.mp3");
